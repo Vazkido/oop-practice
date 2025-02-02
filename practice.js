@@ -11,3 +11,12 @@ class Animal {
     console.log(`${this.name} ${this.sound}`);
   }
 }
+
+// INHERITANCE
+class AnimalClassification extends Animal {
+  //constructor method to initialize object properties
+  constructor(name, order) {
+    super(name);
+    this.order = order;
+  }
+}
