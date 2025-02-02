@@ -20,3 +20,14 @@ class AnimalClassification extends Animal {
     this.order = order;
   }
 }
+
+classifyByOrder(animalName) {
+    const animalClass = animals.find((animal) => animal.name === animalName)
+
+    if (animalClass){
+      console.log(`${animalClass.name} is a ${animalClass.order}`);
+    }else{
+      console.log(`${animalName} class not found`);
+    }
+    return this;
+}
