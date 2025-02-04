@@ -32,16 +32,40 @@
 //     return this;
 // }
 
+//POLYMORPHISM EXAMPLE
+// class Shape {
+//   area() {
+//     console.log("Calculating area of a shape");
+//   }
+// }
+// class Square extends Shape {
+//   area() {
+//     console.log("Calculating area of a square");
+//   }
+// }
 
-//POLYMORPHISM EXAMPLE 
-class Shape {
-  area() {
-    console.log("Calculating area of a shape");
-    
+
+
+// I SKIPPED 3/9 PAGE IN OOP
+
+// NOW LETS CREATE AN INSTANCE OF A CLASS
+
+class Animal {
+  //Constructor method to initialize object properties
+  constructor(name, color, isWild, sound) {
+    this.name = name;
+    this.color = color;
+    this.isWild = isWild;
+    this.sound = sound;
+  }
+  // you can add your methods here
+  makeSound() {
+    console.log(`${this.name} usually ${this.sound}`);
   }
 }
-class Square extends Shape {
-  area(){
-    console.log("Calculating area of a square"); 
-  }
-}
+
+// CREATING INSTANCES OF THE ANIMAL CLASS
+let animalOne = new Animal("dog", "black", true, "barks");
+console.log(animalOne);
+
+let animalTwo = new Animal
