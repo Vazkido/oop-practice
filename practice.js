@@ -44,28 +44,27 @@
 //   }
 // }
 
-
-
 // I SKIPPED 3/9 PAGE IN OOP
 
 // NOW LETS CREATE AN INSTANCE OF A CLASS
 
-class Animal {
-  //Constructor method to initialize object properties
-  constructor(name, color, isWild, sound) {
-    this.name = name;
-    this.color = color;
-    this.isWild = isWild;
-    this.sound = sound;
-  }
-  // you can add your methods here
-  makeSound() {
-    console.log(`${this.name} usually ${this.sound}`);
-  }
-}
+// class Animal {
+//   //Constructor method to initialize object properties
+//   constructor(name, color, isWild, sound) {
+//     this.name = name;
+//     this.color = color;
+//     this.isWild = isWild;
+//     this.sound = sound;
+//   }
+//   // you can add your methods here
+//   makeSound() {
+//     console.log(`${this.name} usually ${this.sound}`);
+//   }
+// }
 
-// CREATING INSTANCES OF THE ANIMAL CLASS
-let animalOne = new Animal("dog", "black", true, "barks");
-console.log(animalOne);
+// // CREATING INSTANCES OF THE ANIMAL CLASS
+// let animalOne = new Animal("dog", "black", false, "barks");
+// console.log(animalOne);
 
-let animalTwo = new Animal
+// let animalTwo = new Animal("Lion", "gold", true, "roars");
+// console.log(animalTwo);
